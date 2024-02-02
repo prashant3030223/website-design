@@ -1,0 +1,67 @@
+@keyframes move-bg {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+  }
+
+  body {
+    background-color: #02030384;
+    color: #050202;
+    text-align: center;
+    padding: 5em;
+  }
+
+header {
+    background-color: #f3efef56;
+    color: #071131;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #0a067e72;
+    color: #ebebf1;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0a067e;
+    font-weight: bold;
+}
+
+section {
+    padding: 0.5em;
+}
+
+.hero {
+    text-align: center;
+}
+
+.service-card {
+    background-color: #85133f94;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #030359;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
